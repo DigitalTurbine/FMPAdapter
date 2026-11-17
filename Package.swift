@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 // Created by Digital Turbine on 03/12/2025.
 // Copyright © 2025 Digital Turbine. All rights reserved.
@@ -8,7 +8,7 @@ import PackageDescription
 
 let package = Package(
     name: "FMPAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "FMPAdapter",
