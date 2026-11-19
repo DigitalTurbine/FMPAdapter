@@ -16,7 +16,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM", .exact("8.5.2"))
+        .package(url: "https://github.com/DigitalTurbine/DTExchangeSDK-iOS-SPM", .exact("8.5.2"))
     ],
     targets: [
         .target(
